@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+"""Duck typing"""
 from typing import Sequence, Any, Union
 
 
