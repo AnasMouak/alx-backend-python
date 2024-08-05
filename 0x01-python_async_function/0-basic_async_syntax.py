@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """The basics of async"""
-import random
 import asyncio
+import random
 
 
-async def wait_random(max_delay=10):
+async def wait_random(max_delay: int = 10) -> float:
     """
     Asynchronously wait for a random delay and return a random float.
 
